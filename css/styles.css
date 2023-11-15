@@ -125,21 +125,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
   #video-background {
       display: none;
   }
 
   body {
     background-image: url(Images/smalldeviceimg.jpg);
-  }
-
-  .row {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .column {
-      max-width: 100%;
   }
 
   .menu-icon {
