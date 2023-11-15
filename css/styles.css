@@ -127,10 +127,10 @@ a:hover {
 @media only screen and (max-width: 600px) {
   #video-background {
       display: none;
-      background-image: url('Images/smalldeviceimg.jpg'); 
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+  }
+
+  body {
+    background-image: url(Images/smalldeviceimg.jpg);
   }
 
   .row {
