@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - WX Tourism</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style> 
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+</style>
+<body>
+    <img id="logo" src="Images/wx tourism.svg" width="150" height="150">
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li class="dropdown">
+                <a href="packagetour.html" class="dropbtn">Package Tours</a>
+                <div class="dropdown-content">
+                    <a href="#">Japan</a>
+                    <a href="#">Singapore</a>
+                    <a href="#">Iceland</a>
+                </div>
+            </li>
+            <li><a href="#">Rediscover Singapore</a></li>
+            <li><a href="#">Cruises</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <video id="video-background" autoplay loop muted>
+        <source src="Videos/IHATEVSC.mp4" type="video/mp4"/>
+    </video>
+
+    <div class="contactcontent">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or inquiries, feel free to reach out to us:</p>
+        <p>Email: contact@wxtourism.com</p>
+        <p>Phone: +65 8862 8363</p>
+        <p><img src="Images/Instagram_icon.png" width="25" height="25"><a href="https://www.instagram.com" style="color: #ffffff; text-decoration: none;">Instagram: @wxtourism [Click to visit]</a></p>
+        <p><img src="Images/Twitter X.png" width="25" height="25"><a href="https://twitter.com" style="color: #ffffff; text-decoration: none;">Twitter/X: @wxtourism [Click to visit]</a></p>
+    </div>
+    <div class="footer">
+        Find us @ Causeway Point Woodlands #B1-05!
+    </div>
+</body>
+</html>
+
+<script>
+    function toggleMenu() {
+        var menu = document.querySelector('ul');
+        menu.classList.toggle('show');
+    }
+</script>

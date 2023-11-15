@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WX Tourism</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style> 
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+</style>
+<body>
+    <img id="logo" src="Images/wx tourism.svg" width="150" height="150">
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li class="dropdown">
+                <a href="packagetour.html" class="dropbtn">Package Tours</a>
+                <div class="dropdown-content">
+                    <a href="#">Japan</a>
+                    <a href="#">Singapore</a>
+                    <a href="#">Iceland</a>
+                </div>
+            </li>
+            <li><a href="#">Rediscover Singapore</a></li>
+            <li><a href="#">Cruises</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <video id="video-background" autoplay loop muted>
+        <source src="Videos/IHATEVSC.mp4" type="video/mp4"/>
+    </video>
+
+    <div class="row">
+        <div class="column" style="background-color: transparent;">
+            <h2>CHINA</h2>
+            <p>Cucumber farm in China</p>
+            <p><img class="article-image" src="Images/imga.jpg" width="400" height="200"></p>
+        </div>
+        <div class="column" style="background-color: transparent;">
+            <h2>GREENLAND</h2>
+            <p>Enjoy Greenland</p>
+            <p><img class="article-image" src="Images/imgb.jpg" width="400" height="200"></p>
+        </div>
+        <div class="column" style="background-color: transparent;">
+            <h2>ITALY</h2>
+            <p>Wandering Italy</p>
+            <p><img class="article-image" src="Images/imgc.jpg" width="400" height="200"></p>
+        </div>
+    </div>
+    <div class="footer">
+        Find us @ Causeway Point Woodlands #B1-05!
+    </div>
+</body>
+</html>
+
+<script>
+    function toggleMenu() {
+        var menu = document.querySelector('ul');
+        menu.classList.toggle('show');
+    }
+</script>
